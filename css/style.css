@@ -1,0 +1,259 @@
+/*
+Author: Fan Zhang
+File: style.css
+
+*/
+/*banner style*/
+    #banner {
+	margin: 0;
+	padding: 53px 35px 17px 68px;
+	/* image is taken from source code of "www.bcitcomp.ca/comp1850"*/
+	background: url(../images/background_top1.jpg) no-repeat #06a;
+    }
+
+   #banner h1 {
+	font: 12px verdana, arial, helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #eee;
+   }
+/*Navigation style*/
+   #main_nav {
+	border-top: 1px solid #ddd;
+	background: #046;
+	padding: 5px 20px 5px 10px;
+	font: bold 10px "proxima-nova", verdana, arial, helvetica, sans-serif;
+	color: #fff;
+	
+  }
+
+/*link style for navigation bar*/
+a.nav_bar, li{
+	font-weight:bold;
+}
+a.nav_bar:link{
+	background-color:#;
+	color:#eee;
+	
+}
+a.nav_bar:visited{
+	background-color:#;
+	color:#eee;
+}
+a.nav_bar:hover{
+	background-color:#d64a28;
+	color:#fff;
+	
+}
+a.nav_bar:active{
+	background-color:#d64a28;
+	color:#fff;
+}
+
+
+/*link style for general*/
+a, li{
+	font-weight:normal;
+}
+
+a:link{
+	background-color:#;
+	color:#E17D0F;
+	
+}
+a:visited{
+	background-color:#;
+	color:#E17D0F;
+}
+a:hover{
+	background-color:#E17D0F;
+	color:#046;
+	
+}
+a:active{
+	
+	
+}
+
+
+/* Gradient button implementation*/
+.gradient {
+	background: #2daebf url(../images/alert-overlay.png) repeat-x;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 160px;
+	font-size: 14px;
+	
+}
+
+.gradient:link {
+	background-color:#2daebf;
+	color:#fff;
+}
+.gradient:visited{
+	background-color:#2daebf;
+	color:#fff;
+}
+.gradient:hover { 
+	background-color: #007d9a; 
+	color: #fff; 
+}
+
+
+body {
+	min-width: 630px;
+	margin: 0;
+	padding: 0;
+	height:100%;
+	line-height: 1.5em;
+	font-family: "proxima-nova", verdana, arial, helvetica, sans-serif;
+}
+
+#container {
+	padding-left: 200px;
+	padding-right: 190px;
+	min-height:100%;
+	position:relative;
+}
+
+#container .column {
+	position: relative;
+	float: left;
+	padding-top: 1em;
+}
+
+#content {
+	margin: 0 auto;
+	min-height: 800px;
+	padding: 10px 20px 120px 20px; 
+	width: 100%;
+	/*background: #eff0f1;*/
+}
+
+#left {
+	width: 180px;
+	padding: 10px 20px 120px 20px; 
+	right: 240px;
+	/* Column implementation through negative margin */
+	margin-left: -100%;
+	/*background: #CCEAFF;*/
+	background: #213246;
+	color:#fff;
+}
+
+#right {
+	width: 130px;
+	padding: 10px 20px 120px 20px; 
+	/* Column implementation through negative margin */
+	margin-right: -100%;
+	/*background: #CCEAFF;*/
+	background: #213246;
+	color:#fff;
+}
+
+/* sidebar navigation styles */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+
+
+/* footer styles */
+footer {
+	font: 12px "proxima-nova", verdana, arial, helvetica, sans-serif;
+	/* No floating elements allowed on the left or the right side of a specified <p> element. from w3school clear*/
+	clear: both;
+	padding-top: 20px;
+
+	background: #06a;
+	height:70px;
+	bottom:0;
+	left:0;
+	width: 100%;
+}
+
+
+#footer_p {
+	padding-left: 20px;
+	color: #fff; 	
+}
+
+
+/* Make the columns the same height as each other */
+#container {
+	overflow: hidden;
+}
+#container .column {
+	padding-bottom: 1001em;
+	margin-bottom: -1000em;
+}
+
+
+
+/* Assignment 2 styles - new layout*/
+
+article {
+	padding-left: 20px;
+}
+
+
+.content_text{
+	font-family: proxima-nova, verdana, arial, helvetica, sans-serif;
+	font-size:14px;
+	line-height: 1.625;
+	color: #4f4f4f;
+}
+
+ul {
+	color: #4f4f4f;
+	font-weight:normal;
+} 
+
+/*new link button style*/
+#new_gcolor:link {
+	background-color:#bc4123;
+	color:#fff;
+	font-weight: normal;
+	text-align: center;
+}
+#new_gcolor:visited{
+	background-color:#bc4123;
+	color:#fff;
+	font-weight: normal;
+	text-align: center;
+}
+#new_gcolor:hover { 
+	background-color: #d64a28; 
+	color: #fff; 
+	font-weight: normal;
+	text-align: center;
+}
+ 
+ .bluetxt{
+	
+	color:#150fa9;
+}
