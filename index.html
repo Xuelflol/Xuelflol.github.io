@@ -10,6 +10,14 @@ File: index.html
 	<head>
 		<title>Homework1</title>
 		<link href="css/style.css" rel="stylesheet" />
+		
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	
 	<body>
@@ -17,59 +25,110 @@ File: index.html
 				New header tag to contain general banner, the image and layout were taken from the course webpage source code. 
 		-->
 		<header id="banner">
-            <h1>ACIT-2101 | Portfolio Development | Welcome to Fan's ePortfolio!</h1>
+            <p>ACIT-2101 | Portfolio Development | Fan Zhang</p>
         </header>
 		
-		<!-- Navigation 
+			<div id="container1">
+			
+						<!-- Navigation 
 				New nav tag to define the 3 navigation links. 
 		-->
 			<nav id="main_nav">
-				<a href="index.html" class="nav_bar">Artifacts</a> |
-				<a href="fav_movie.html" class="nav_bar">My Favorite Movie</a>
+				<ul>
+						<li><a href="index.html" class="gradient" id="new_gcolor">About me &raquo;</a>
+						<a href="" class="gradient" id="new_gcolor">Place holder1 &raquo;</a>
+						<a href="" class="gradient" id="new_gcolor">Place holder2 &raquo;</a></li>
+				</ul>
 			</nav>
-		
-		<div id="container">
 
-				<main id="content" class="column">
+				<main id="content" class="column1">
 					<article>
-						<h1>Welcome to the webspace of Fan Zhang.</h1>
 						
-						<h3>A brief introduction about myself:</h3>
-						<p>Name: Fan ZHANG</p>
-						
-						<p>Student ID: A01012536</p>
 						<section class = "content_text">
-						<p>I'm looking to pursue a career in software development or testing. I am taking comp 1850 as a first step to get familiar with the basics 
-						of coding as well as to see if I enjoy programming. I have some background in java development but it was quite a long time ago. So
-						I am also taking another java course at BCIT at the same time. After finishing this semester, I will to apply for "Computer Systems Technology"
-						program or "Software Systems Developer -Web Programmer Option". I have found coding more and more fun as I get better at it.
+						<h3>Summary:</h3>
+						
+						<p>Hi there! 			
+						</br> 
+						My name is Fan Zhang, and I am a second year student in the CIT program at BCIT. I am a detail oriented and highly motivated person with excellent communication skills, analytical skills, leadership and organization skills which make me adaptable to today’s environment of complex challenges and rapid change. I hope to pursue a career in a networking or gaming company as a software developer. Please feel free to browse through my pages here in order to find out more about me.
 						</p>
-						<div class="bluetxt">
+						
+						<a href="Fan_Zhang_Resume.pdf" class="gradient" id="Resume">Resume</a>
+						
+						<h3>Education:</h3>
 						<p>
-						 - &ltbody&gt tag attributes determining the text color and the background color
-						 </br>
-						 Note: The text and background color are being used in &ltsection&gt and class instead.
+						
+						<h5>Computer Information Technology Diploma Program</h5>
+						British Columbia Institute of Technology – Vancouver, BC September 2016 – Present
+						<h5>B. Eng in Software Engineering</h5>
+						McGill University – Montreal, Quebec (Completed 102 credits)
+						September 2003 – December 2007
 						</p>
+						
+						<h3>Artifacts:</h3>
+
+						<div class="bluetxt">
+						<div id="about">
+							<!-- Start of artifacts list -->
+							<div id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<br>
+								<!--Second row of artifact-->
+								<div class="row">
+
+									<!-- Beginning of artifact -->
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<div class="panel panel-default text-center">
+											<div class="panel-body">
+												<div class="imgs_artifact">
+													<img class="artifact" src="images/artifact1.png"/>
+												</div>
+											</div>
+											<div class="panel-footer">
+												<h4>Aion Chat<br><br></h4>
+												<p>The first artifact is from the course ACIT2520. I have created an online chatroom application using node.js which is one of the most commonly used JS language in the industry for coding interactive server-client applications. I have deployed the application in Heroku. 
+												</p>
+											</div>
+											</br> 
+											<a href="https://aionchat.herokuapp.com/" class="gradient" id="">Go to &raquo; Aion Chat</a>
+											</br> 
+											</br>
+										</div>      
+									</div>     
+									<!--End of artifact -->
+
+									<!-- Beginning of artifact -->
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<div class="panel panel-default text-center">
+											<div class="panel-body">
+												<div class="imgs_artifact">
+													<img class="artifact" src="images/artifact2.png"/>
+												</div>
+											</div>
+											<div class="panel-footer">
+												<h4>PigApp <br><br></h4>
+												<p>
+												The second artifact is from the course ACIT 2515. I have created an application that can analyze Wireshark pcap data files and produce reports and graphs that can be used to analyze the network activities which can be useful for IT personals.
+												</p>
+											</div>
+											</br>
+											
+											<a href="https://github.com/HomyChen/pigApp" class="gradient" id="">Go to &raquo; PigApp</a>
+											</br> 
+											</br> 
+										</div>      
+									</div>     
+									<!--End of artifact -->
+
+								</div>
+							</div>
+						<!-- End of artifact lists -->
 						</div>
+						</div>
+						<p>
+							Thanks for Visiting!
+						</p>
 						</section>
 					</article>								
 				</main>
-
-	 			<nav id="left" class="column">
-					<h4>What are my interests:</h4>
-					<ul>
-						<li><a href="index.html" class="gradient" id="new_gcolor">My artifacts &raquo;</a></li>
-						</br>
-						<li><a href="fav_movie.html" class="gradient" id="new_gcolor">Favorite movie &raquo;</a></li>
-						</br>
-						<li><a href="fav_music.html" class="gradient" id="new_gcolor">Favorite music &raquo;</a></li>
-					</ul>
-
-				</nav>
-
-				<div id="right" class="column">
-
-				</div> 
 
 			</div>
 
