@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<!--
+ACIT-2101
+Author: Fan Zhang
+File: index.html
+
+-->
+
+	<head>
+		<title>aionchat</title>
+		<link href="css/style.css" rel="stylesheet" />
+		
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link href="sticky-footer-navbar.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	
+			
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Fan's E-portfolio</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class=""><a href="index.html">About me</a></li>
+                <li class="active">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="aionchat.html">Aion Chat</a></li>
+                    <li><a href="pigapp.html">PigApp</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    </div>
+
+			
+						<!-- Navigation 
+				New nav tag to define the 3 navigation links. 
+		-->
+
+				<main id="content" class="column1">
+					<article>
+						
+						<section class = "content_text">
+						
+						<h3>Aion Chat</h3>
+
+						<div class="bluetxt">
+						<div id="about">
+							<!-- Start of artifacts list -->
+							<div id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<br>
+								<!--Second row of artifact-->
+								<div class="row">
+
+									<!-- Beginning of artifact -->
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<div class="panel panel-default text-center">
+											<div class="panel-body">
+												<div class="imgs_artifact">
+													<img class="artifact" src="images/artifact1.png"/>
+												</div>
+											</div>
+										</div>      
+									</div>     
+									<!--End of artifact -->
+									<h5>Artifact:</h5>
+									<p>The first artifact is from the course ACIT2520. I have created an online chatroom application using node.js which is one of the most commonly used JS language in the industry for coding interactive server-client applications. I have deployed the application in Heroku. 
+									</p>
+									
+									<a href="https://aionchat.herokuapp.com/" class="gradient" id="">Go to &raquo; Aion Chat</a>
+									
+									<a href="https://github.com/Xuelflol/aionchat" class="gradient" id="">Aion Chat Respository</a>
+									
+									
+									</br> 
+									</br>
+									<h5>Reflection:</h5>
+									
+									<p>This artifact links to the goals “Web Application development”, “UI/UX design”, “Software Design”, “database management” as well as the goal “Node programming”.
+									</p>
+									</br> 
+									<p>This application show case my strength in web application design especially in how to handle server-client interactions. The application uses sessions, jQuery and also database management technics. It also shows my ability to design UI/UX efficiently.
+									</p>
+
+								</div>
+							</div>
+						<!-- End of artifact lists -->
+						</div>
+						<div id="about">
+							<!-- Start of artifacts list -->
+							<div id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								
+								<!--Second row of artifact-->
+								<div class="row">
+
+
+									<!-- Beginning of artifact -->
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<div class="panel panel-default text-center">
+											<div class="panel-body">
+												<div class="imgs_artifact">
+													<img class="artifact" src="images/aionchat2.png"/>
+												</div>
+											</div>  
+										</div>											
+									</div>     
+									<!--End of artifact -->
+
+									
+									
+									<p>The project was to implement an interactive online chatroom app. It was the first time that I am working with node.js and my Java-script experience was quite minimal, so I had a lot to catch up at the beginning of the course. 
+									</p>
+									</br>
+									<p>I took on the project by myself and have decided to design forum for one of my favorite MMORPG game. I have collected a lot of relevant materials and data for front end and I have browsed many popular gaming forums to compare the features and layout in order to choose what I like and what I don’t. Then I have built the application back-end using what we were taught in class as well as information that I gathered along the way. During the implementation phase, I have encountered some issues for handling server and client data properly. I used a test driven approach for development so I was able to find the issues quite easily and I use multiple resources like “stack overflow” and GitHub to find solution for tricky issues. I have implemented all the features required in the project requirement and I have also finished all the bonus features that the instructors posted for us that were meant to be more of a challenge.
+									</p>
+									</br>
+									
+						
+								</div>
+							</div>
+						<!-- End of artifact lists -->
+						</div>
+						<div id="about">
+							<!-- Start of artifacts list -->
+							<div id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								
+								<!--Second row of artifact-->
+								<div class="row">
+
+
+									<!-- Beginning of artifact -->
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+										<div class="panel panel-default text-center">
+											<div class="panel-body">
+												<div class="imgs_artifact">
+													<img class="artifact" src="images/aionchat3.png"/>
+												</div>
+											</div>  
+										</div>											
+									</div>     
+									<!--End of artifact -->
+
+									
+									<p>My goal was to get experience with software design and specifically with node.js programming. And also have more experience with UI/UX and database. Through this project, I have been able to achieve all these goals and connecting the dots together to present the final product in order to Ace the course.
+									</p>
+						
+								</div>
+							</div>
+						<!-- End of artifact lists -->
+						</div>
+						</div>
+						</section>
+					</article>								
+				</main>
+
+     <!-- FOOTER -->
+
+	<footer class="footer">
+      <div class="container">
+        <p class="text-muted">&copy; 2017 Designed by Fan Zhang @ BCIT.</p>
+      </div>
+    </footer>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+	</body>
+</html>
